@@ -8,7 +8,4 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-User.create(username: "Arvind", password_digest: "Password")
-User.create(username: "Deepak", password_digest: "Password")
-User.create(username: "Vamshi", password_digest: "Password")
-User.create(username: "Deekshith", password_digest: "Password")
+
