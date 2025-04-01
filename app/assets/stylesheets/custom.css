@@ -1,3 +1,6 @@
 .chatbox{
     height: 450px;
  }
+ .ui.dropdown .menu {
+    z-index: 1000 !important;
+  }
