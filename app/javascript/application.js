@@ -6,8 +6,13 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "semantic-ui"
+import Rails from "@rails/ujs";
+Rails.start();
 document.addEventListener("DOMContentLoaded", function() {
   $('.ui.dropdown').dropdown();
     $('.ui.modal').modal();
+    $('.message .close').on('click', function() {
+      $(this).closest('.message').transition('fade');
+    });
   });
 
